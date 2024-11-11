@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #4A90E2;
+    margin-bottom: 20px;
+}
+
+#month-tabs {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.month-btn {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.month-btn:hover {
+    background-color: #0056b3;
+}
+
+#calendar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.day {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    background-color: white;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+.day:hover {
+    background-color: #ADD8E6;
+    border-color: #4A90E2;
+}
+
+.booked {
+    background-color: #FFD700;
+}
+
+.disabled {
+    background-color: #C0C0C0;
+    pointer-events: none;
+}
+
+#booking-form {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #F8F9FA;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+select {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.button-group {
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#email-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#email-link:hover {
+    background-color: #0056b3;
+}
